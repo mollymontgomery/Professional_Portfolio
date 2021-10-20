@@ -9,116 +9,122 @@
     <body>
         <!--navigation-->
         <header>
-            <div><h1>Molly Montgomery</h1></div>
+            <h1>
+                <a href="/">Molly Montgomery</a>
+            </h1>
             <nav>
                 <ul>
                     <li>
-                        <a href="about-me">About Me</a>
+                        <a href="#about-me">About Me</a>
                     </li>
                     <li>
-                        <a href="work">Work</a>
+                        <a href="#work">Work</a>
                     </li>
                     <li>
-                        <a href="contact-me">Contact Me</a>
+                        <a href="#contact-me">Contact Me</a>
                     </li>
                 </ul>
             </nav>
         </header>
         <!--navigation ends-->
+  <!--hero section-->
+  <section class="hero">
+    <div>
+        <img src="./assets/images/Headshot.jpg" alt="Molly Montgomery Headshot">
+    </div>
+    <div class="quote">
+        <blockquote>
+            <p id="quote-text">
+                Hi, I'm Molly!
+            </p>
+            <p>
+                Student at UMN - Coding Bootcamp
+            </p>
+        </blockquote>
+    </div>
+</section>
 
-        <!--hero section-->
-        <section class="hero">
-            <div>
-                <img src="./assets/images/Headshot.jpg" alt="Molly Montgomery Headshot">
+<!--About Me section-->
+<section id="about-me" class="about-me">
+    <div class="title">
+        <h2>About Me</h2>
+    </div>
+    <div>
+        <p>
+            I am working towards gaining the skills necessary to be a fullstack developer at the University of Minnesota Coding Bootcamp. Currently, I am working as a Facility Manager and have my Bachelor's degree from the University of Northern Iowa.
+        </p>
+        <br>
+        <p>
+            I am located in the Kansas City metro area. In my free time I love to explore the city with my husband and two corgis. I spend a lot of time outdoors, adding to my plant collection, and working on a creative projects.
+        </p>
+
+    </div>
+</section>
+
+<!--Work section-->
+<section id="work" class="work">
+    <div class="title"><h2>Work</h2></div>
+    <div class="projects-grid-wrapper">
+        <div class="projects-grid">
+
+            <a href="https://mollymontgomery.github.io/run-buddy/" target="_blank" class="project run-buddy">
+            <div class="project-label">
+                <h3>Run Buddy</h3>
+                <p>HTML/CSS</p>
             </div>
-            <div class="quote">
-                <blockquote>
-                    <p id="quote-text">
-                        Quote quote quote quote
-                    </p>
-                    <p>
-                        By: XYZ
-                    </p>
-                </blockquote>
-            </div>
-        </section>
-
-        <!--About Me section-->
-        <section id="about-me" class="about-me">
-            <div class="title">
-                <h2>About Me</h2>
-            </div>
-            <div>
-                <p>
-                    I am working towards gaining the skills necessary to be a fullstack developer at the University of Minnesota Coding Bootcamp. Currently, I am working as a Facility Manager and have my Bachelor's degree from the University of Northern Iowa.
-                </p>
-
-            </div>
-        </section>
-
-        <!--Work section-->
-        <section id="work" class="work">
-            <div class="title"><h2>Work</h2></div>
-            <div class="projects-grid-wrapper">
-                <div class="projects-grid">
-
-                    <a href="https://mollymontgomery.github.io/run-buddy/" target="_blank" class="project run-buddy">
-                    <div class="project-label">
-                        <h3>Run Buddy</h3>
-                        <p>HTML/CSS</p>
-                    </div>
-                    </a>
-                    <a href="#" target="_blank" class="project project2">
-                        <div class="project-label">
-                            <h3>Project 2</h3>
-                            <p>Project type placeholder</p>
-                        </div>
-                    </a>
-                    <a href="#" target="_blank" class="project project3">
-                        <div class="project-label">
-                            <h3>Project 3</h3>
-                            <p>Project type placeholder</p>
-                        </div>
-                    </a>
-                    <a href="#" target="_blank" class="project project4">
-                        <div class="project-label">
-                            <h3>Project 4</h3>
-                            <p>Project type placeholder</p>
-                        </div>
-                    </a>
-                    <a href="#" target="_blank" class="project project5">
-                        <div class="project-label">
-                            <h3>Project 5</h3>
-                            <p>Project type placeholder</p>
-                        </div>
-                    </a>
+            </a>
+            <a href="#" target="_blank" class="project project2">
+                <div class="project-label">
+                    <h3>Project 2</h3>
+                    <p>Project type placeholder</p>
                 </div>
-            </div>
-        </section>
-
-        <!--Contact info section-->
-        <footer id="contact-me">
-            <div class="title"><h2>Contact Me</h2></div>
-            <div class="content-wrapper">
-                <div id="contact-list>">
-                    <ul>
-                        <li>
-                            <a href="mailto:mollymontgomery515@gmail.com">Email</a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/mollymontgomery" target="_blank">Github</a>
-                        </li>
-                        <li>
-                            <a href="www.linkedin.com/in/mollymontgomery515" target="_blank">LinkedIn</a>
-                        </li>
-                        <li>
-                            <p>(515) 491-1427</p>
-                        </li>
-                    </ul>   
+            </a>
+            <a href="#" target="_blank" class="project project3">
+                <div class="project-label">
+                    <h3>Project 3</h3>
+                    <p>Project type placeholder</p>
                 </div>
-            </div>
-        </footer>
-      
-    </body>
+            </a>
+            <a href="#" target="_blank" class="project project4">
+                <div class="project-label">
+                    <h3>Project 4</h3>
+                    <p>Project type placeholder</p>
+                </div>
+            </a>
+            <a href="#" target="_blank" class="project project5">
+                <div class="project-label">
+                    <h3>Project 5</h3>
+                    <p>Project type placeholder</p>
+                </div>
+            </a>
+        </div>
+    </div>
+</section>
+
+<!--Contact info section-->
+<footer id="contact-me">
+    <div class="title"><h2>Contact Me</h2></div>
+    <div class="content-wrapper">
+        <div id="contact-list>">
+            <ul>
+                <li>
+                    <a href="mailto:mollymontgomery515@gmail.com">Email</a>
+                </li>
+                <li>
+                    <a href="https://github.com/mollymontgomery" target="_blank">Github</a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/mollymontgomery515" target="_blank">LinkedIn</a>
+                </li>
+                <li>
+                    <p>(515) 491-1427</p>
+                </li>
+            </ul>   
+        </div>
+    </div>
+</footer>
+
+</body>
 
 </html>
+

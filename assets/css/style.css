@@ -159,10 +159,10 @@ header nav ul li a:hover {
     background-image: url(../images/run-buddy.jpeg);
 }
 
-.project2 {
+.recipe-guide {
     grid-column: 1/2;
     grid-row: span 1;
-    background-image: url(../images/placeholder.png);
+    background-image: url(../images/Main_Page.png);
 }
 
 .project3 {

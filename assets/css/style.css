@@ -162,13 +162,13 @@ header nav ul li a:hover {
 .recipe-guide {
     grid-column: 1/2;
     grid-row: span 1;
-    background-image: url(/assets/images/Main_Page.png);
+    background-image: url(../images/Main_Page.png);
 }
 
-.project3 {
+.bookshelf {
     grid-column: 2/2;
     grid-row: span 1;
-    background-image: url(../images/placeholder.png);
+    background-image: url(../images/Homepage.png);
 }
 
 .project4 {
